@@ -3,7 +3,7 @@ $name       = @trim(stripslashes($_POST['name']));
 $from       = @trim(stripslashes($_POST['email']));
 $subject    = @trim(stripslashes($_POST['subject']));
 $message    = @trim(stripslashes($_POST['message']));
-$to   		= 'guillauem.devantoy@gmail.com';//replace with your email
+$to   		= 'guillaume.devantoy@gmail.com';//replace with your email
 
 $headers   = array();
 $headers[] = "MIME-Version: 1.0";
